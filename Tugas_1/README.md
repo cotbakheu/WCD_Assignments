@@ -12,7 +12,7 @@
    ```
 2. Start the application:
    ```sh
-   npm start
+   npm run tugas-1
    ```
 
 ---
