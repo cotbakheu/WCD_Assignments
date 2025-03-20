@@ -6,6 +6,7 @@
     "tugas-1": "ts-node ./Tugas_1/index.ts",
     "tugas-2": "ts-node ./Tugas_2/index.ts",
     "tugas-3": "ts-node ./Tugas_3/index.ts",
+    "start": "npm run tugas-3",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
