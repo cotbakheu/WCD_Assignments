@@ -1,0 +1,137 @@
+:root {
+  --green: #69B99D;
+  --green-solid: #2dba88;
+  --white: #F9F9F9;
+  --grey: #7D7987;
+  --black: #1F1534;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  font-family: 'Mulish', sans-serif;
+  min-height: 100vh;
+}
+
+.page {
+  width: 1040px;
+  margin: 0px auto;
+  padding-top: 64px;
+}
+
+/* Check margin */
+nav {
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Check list styling */
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 40%;
+}
+
+nav ul li {
+  width: 50%;
+}
+
+/* Check list link style */
+nav ul li a {
+  color: var(--grey);
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* Make text bold on hover */
+nav ul li a:hover {
+  color: var(--black);
+  font-weight: 700;
+}
+
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 88px;
+}
+
+/* Check margin and font styling */
+.text h1 {
+  margin: auto auto 2rem auto;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: uppercase;
+  letter-spacing: 0%;
+}
+
+/* Check font styling */
+.text h1 span {
+  color: var(--green);
+}
+
+/* Check font styling */
+.text p {
+  margin: auto auto 3rem auto;
+  color: var(--grey);
+  letter-spacing: 0%;
+  line-height: 160%;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* Check font styling and make sure the button is rounded */
+.text button {
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: var(--green);
+  border-radius: 4px;
+  border: none;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Handle when user hover on the button */
+.text button:hover {
+  background-color: var(--green-solid);
+}
+
+/* Check the text styling */
+footer {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+
+/* Check the text styling */
+footer a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+
+
