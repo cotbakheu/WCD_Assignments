@@ -4,13 +4,17 @@
   "main": "index.ts",
   "scripts": {
     "tugas-1": "ts-node ./Tugas_1/index.ts",
+    "tugas-2": "ts-node ./Tugas_2/index.ts",
+    "tugas-3": "ts-node ./Tugas_3/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@types/express": "^5.0.1",
     "@types/node": "^22.13.9",
+    "express": "^4.21.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
   }
